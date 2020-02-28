@@ -11,31 +11,19 @@
 4.npm install --save ejs express-ejs-layouts
 
 5.project structure
-
- ```````````````````---------------````````````````````````
-|- app/ 
-
-// all the app logic
-
+```
+   |- app/                 // all the app logic
     |- controllers/
-    
     |- models/
-    
     |- routes.js
-    
-    |- public/    
-    // app assets (css/frontend js/img)
-       |- css/
-    
-   |- views/
+|- public/              // app assets (css/frontend js/img)
+    |- css/
+|- views/
+.env            // holds our environment variables
+package.json    // holds our app configuration
+server.js       // the starting point for our app
 
-.env           
-   // holds our environment variables
-   package.json   
-   // holds our app configuration
-   server.js    
-   // the starting point for our app
-`````````````````---------------```````````````````````````
+```
 
 
 
